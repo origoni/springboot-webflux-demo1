@@ -64,7 +64,7 @@ curl -H 'Content-Type: application/json' -v 'http://localhost:8080/person'
 
 ## Dependency
 
-### Spring Boot 2.0.0.M6
+### Spring Boot 2.0.1.RELEASE
 - spring-boot-starter-webflux
 - spring-boot-starter-data-mongodb-reactive
 - de.flapdoodle.embed.de.flapdoodle.embed.mongo
