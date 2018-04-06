@@ -1,4 +1,4 @@
-# springboot-webflux-demo1
+# springboot-webflux-demo1 [![Build Status](https://travis-ci.org/origoni/springboot-webflux-demo1.svg?branch=master)](https://travis-ci.org/origoni/springboot-webflux-demo1)
 
 spring-boot-webflux reactive rest demo
 using spring-boot-starter-data-mongodb-reactive
