@@ -19,46 +19,46 @@ mvn spring-boot:run
 
 ### create (& update)
 ```
-curl -d '{"name":"olivia","age":5}' -H 'Content-Type: application/json' -v 'http://localhost:8080/person'
+curl -d '{"name":"olivia","age":5}' -H 'Content-Type: application/json' -v 'http://localhost:8089/person'
 ```
 ### update (& create)
 ```
-curl -X PUT -d '{"name":"noah","age":3}' -H 'Content-Type: application/json' -v 'http://localhost:8080/person'
+curl -X PUT -d '{"name":"noah","age":3}' -H 'Content-Type: application/json' -v 'http://localhost:8089/person'
 ```
 ### list
 ```
-curl -H 'Content-Type: application/json' -v 'http://localhost:8080/person'
+curl -H 'Content-Type: application/json' -v 'http://localhost:8089/person'
 ```
 ### read
 ```
-curl -H 'Content-Type: application/json' -v 'http://localhost:8080/person/olivia'
+curl -H 'Content-Type: application/json' -v 'http://localhost:8089/person/olivia'
 ```
 
 ## update, delete Test
 
 ### create
 ```
-curl -d '{"name":"test","age":0}' -H 'Content-Type: application/json' -v 'http://localhost:8080/person'
+curl -d '{"name":"test","age":0}' -H 'Content-Type: application/json' -v 'http://localhost:8089/person'
 ```
 ### check
 ```
-curl -H 'Content-Type: application/json' -v 'http://localhost:8080/person'
+curl -H 'Content-Type: application/json' -v 'http://localhost:8089/person'
 ```
 ### update
 ```
-curl -d '{"name":"test","age":10}' -H 'Content-Type: application/json' -v 'http://localhost:8080/person'
+curl -d '{"name":"test","age":10}' -H 'Content-Type: application/json' -v 'http://localhost:8089/person'
 ```
 ### check
 ```
-curl -H 'Content-Type: application/json' -v 'http://localhost:8080/person'
+curl -H 'Content-Type: application/json' -v 'http://localhost:8089/person'
 ```
 ### delete
 ```
-curl -X DELETE -H 'Content-Type: application/json' -v 'http://localhost:8080/person/test'
+curl -X DELETE -H 'Content-Type: application/json' -v 'http://localhost:8089/person/test'
 ```
 ### check
 ```
-curl -H 'Content-Type: application/json' -v 'http://localhost:8080/person'
+curl -H 'Content-Type: application/json' -v 'http://localhost:8089/person'
 ```
 
 
